@@ -1,0 +1,14 @@
+footer{
+    height: 10%;
+    // border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media(max-width: 480px){
+
+    footer{
+        height: 20%;
+    }
+}
