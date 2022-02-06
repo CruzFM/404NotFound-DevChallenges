@@ -63,24 +63,29 @@ main{
 
 @media(max-width: 480px){
     main{
-        height: 125%;
+        height: 145%;
         display: flex;
         flex-direction: column;
         .main--imageSection{
             img{
-                width: 100%;
-                height: 100%;
+                width: 80%;
+                height: 80%;
             }
         }
         .main--textSection{
             h1{
                 font-size: 48px;
+                padding-top: 0;
             }
             p{
                 width: 90%;
                 line-height: 27px;
                 font-size: 18px;
                 letter-spacing: -0.035em;
+            }
+            button{
+                width: 216px;
+                height: 68px;
             }
         }
     }

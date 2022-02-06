@@ -43,7 +43,7 @@ footer {
 
 @media (max-width: 480px) {
   footer {
-    height: 20%; } }
+    height: 10%; } }
 
 /* PAGES */
 main {
@@ -86,16 +86,20 @@ main {
 
 @media (max-width: 480px) {
   main {
-    height: 125%;
+    height: 145%;
     display: flex;
     flex-direction: column; }
     main .main--imageSection img {
-      width: 100%;
-      height: 100%; }
+      width: 80%;
+      height: 80%; }
     main .main--textSection h1 {
-      font-size: 48px; }
+      font-size: 48px;
+      padding-top: 0; }
     main .main--textSection p {
       width: 90%;
       line-height: 27px;
       font-size: 18px;
-      letter-spacing: -0.035em; } }
+      letter-spacing: -0.035em; }
+    main .main--textSection button {
+      width: 216px;
+      height: 68px; } }
